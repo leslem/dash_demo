@@ -7,5 +7,7 @@ pip install dash
 pip install pandas
 pip install flake8
 pip install flake8-docstrings
+pip install palmerpenguins
+pip install dash-bootstrap-components
 
 pip freeze > requirements.txt
