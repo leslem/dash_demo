@@ -24,15 +24,33 @@ This is a demo of the Dash app framework. The content is largely based on this v
 - For R, Shiny is pretty much the only game in town, while Dash is just one of many Python web frameworks
 
 
+## Deploy a Dash app to Posit Connect
+
+- **Make sure you used a version of Python that's available on the Connect server!**
+	- Find this at the bottom of the "Documentation" page of your server
+- Install `rsconnect-python` package via pip
+- At the command line, run the deployment command
+
+```
+rsconnect deploy dash \
+	--title "July 2023 Dash demo app" \
+	--server https://myserver.example.com \
+	--api-key $CONNECT_API_KEY \
+	--entrypoint app4:app \
+	.
+```
+
+- Note the best documentation is from `rsconnect deploy dash --help`, not from anything on the Posit web content
+
 
 ## Deploy a Dash app to Domino
 
-
-## Deploy a Dash app to Posit Connect
+- TODO
 
 
 ## Resources
 - [Appsilon Dash vs. R Shiny article](https://www.google.com/search?client=safari&rls=en&q=appsilon+dash+vs+shiny&ie=UTF-8&oe=UTF-8)
 - [Dash bootstrap components](https://dash-bootstrap-components.opensource.faculty.ai)
-
+- [Posit Connect user guide on deploying Dash apps](https://docs.posit.co/connect/user/dash/)
+- [rsconnect-python package documentation]()
 

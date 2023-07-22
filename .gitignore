@@ -1,3 +1,6 @@
+# Posit connect deploy dir
+rsconnect-python
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
