@@ -13,8 +13,12 @@ This is a demo of the Dash app framework. The content is largely based on this v
 1. Open 
 
 ## Demo outline
-- Hello World app
+- Hello World app (`app1.py`)
 	- Notice that it doesn't have any default styling
+- Add a table and a graph of penguins data (`app2.py`)
+- Add reactivity (`app3.py`)
+- Add Bootstrap styling (`app4.py`)
+- Deploy to Posit Connect
 
 ## Dash vs. Shiny
 - Dash `app.layout` object is like Shiny `ui()` function
@@ -46,6 +50,7 @@ rsconnect deploy dash \
 ## Deploy a Dash app to Domino
 
 - TODO
+- [Domino Dash deployment docs](https://docs.dominodatalab.com/en/5.3/user_guide/de2589/publish-a-dash-app/)
 
 
 ## Resources
